@@ -1,0 +1,13 @@
+services:
+  neo4j:
+    image: neo4j:5.26.32-community
+    ports:
+      - "127.0.0.1:17692:7687"
+    environment:
+      NEO4J_AUTH: none
+      NEO4J_server_memory_heap_max__size: 768m
+      NEO4J_server_memory_pagecache_size: 128m
+    volumes:
+      - lab12_graph:/data
+volumes:
+  lab12_graph:

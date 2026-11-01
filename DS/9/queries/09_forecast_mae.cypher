@@ -1,0 +1,1 @@
+MATCH (f:Lab8Forecast)-[:GENERATED_BY]->(model:Lab8Entity) MATCH (f)-[:COMPARED_WITH]->(m:Lab8Observation) WHERE f.targetTime >= localdatetime($start) AND f.targetTime < localdatetime($end) RETURN model.algorithm AS algorithm, count(f) AS forecasts, avg(abs(f.forecastKwh-m.numericValue)) AS mae_kwh, avg(abs(f.persistenceKwh-m.numericValue)) AS persistence_mae_kwh;

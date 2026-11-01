@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+models
+work
+results
+figures
+*.pdf
+*.docx
+*.zip
+__pycache__
+.pytest_cache
+sources
+prepare.py
+build_report.py
+package_lab.py

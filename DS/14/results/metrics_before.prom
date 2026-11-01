@@ -1,0 +1,14 @@
+# HELP lab14_requests_total Completed HTTP requests
+# TYPE lab14_requests_total counter
+# HELP lab14_errors_total HTTP errors including validation
+# TYPE lab14_errors_total counter
+# HELP lab14_latency_seconds HTTP processing time
+# TYPE lab14_latency_seconds histogram
+# HELP lab14_tokens_total Successful generation tokens
+# TYPE lab14_tokens_total counter
+# HELP lab14_api_cost_usd_total External API charge only
+# TYPE lab14_api_cost_usd_total counter
+lab14_api_cost_usd_total 0.0
+# HELP lab14_api_cost_usd_created External API charge only
+# TYPE lab14_api_cost_usd_created gauge
+lab14_api_cost_usd_created 1.7935089911143277e+09

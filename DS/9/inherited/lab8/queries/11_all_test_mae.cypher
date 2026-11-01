@@ -1,0 +1,1 @@
+MATCH (f:Lab8Forecast)-[:COMPARED_WITH]->(m:Lab8Observation) RETURN count(f) AS test_rows, avg(abs(f.forecastKwh-m.numericValue)) AS mae_kwh, avg(abs(f.persistenceKwh-m.numericValue)) AS persistence_mae_kwh;

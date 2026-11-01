@@ -1,3 +1,23 @@
+*.md
+*.png
+*zip
+*.db
+*.id
+*.env
+.env
+.env.example
+*sha*
+.txt
+*.0
+*.json
+*.csv
+*.ttl
+*.rq
+*.cmd
+requirements.txt
+*.docx
+*.joblib
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -218,3 +238,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+/DS/7.rar
+/DS/11/models/

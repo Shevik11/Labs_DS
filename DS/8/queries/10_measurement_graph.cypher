@@ -1,0 +1,1 @@
+MATCH (m:Lab8Entity {id:'measurement:2009-09-09T20:00:00'})-[r:MEASUREMENT_OF|RECORDED_BY|HAS_UNIT|OBSERVES_INDICATOR]->(n:Lab8Entity) RETURN m,r,n;

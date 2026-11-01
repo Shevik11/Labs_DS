@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="280" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="280"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-280)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="6" y="185" width="488" height="87" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<text x="15" y="258" style="font-family: TNRB; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,516) scale(1,-1)">Межа 1  Клієнт і недовірений ввід</text>
+			<rect x="30" y="205" width="175" height="35" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="57.10668945312499" y="219" style="font-family: TNR; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,438) scale(1,-1)">Аналітик  →  FastAPI</text>
+			<rect x="265" y="205" width="205" height="35" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="305.297607421875" y="219" style="font-family: TNR; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,438) scale(1,-1)">Валідація та guardrails</text>
+			<path d="M 205,222 L 265,222 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<polygon points="265 222, 258 226, 258 218" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<rect x="6" y="55" width="488" height="120" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<text x="15" y="157" style="font-family: TNRB; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,314) scale(1,-1)">Межа 2  Локальний сервіс і версійовані дані</text>
+			<rect x="20" y="84" width="140" height="52" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="43.9892578125" y="115" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,230) scale(1,-1)">MiniLM → FAISS</text>
+			<text x="53.6953125" y="96" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,192) scale(1,-1)">38 фрагментів</text>
+			<rect x="180" y="84" width="140" height="52" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="211.345703125" y="115" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,230) scale(1,-1)">Neo4j read only</text>
+			<text x="206.083984375" y="96" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,192) scale(1,-1)">Дозволені шляхи</text>
+			<rect x="340" y="84" width="140" height="52" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="368.94921875" y="115" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,230) scale(1,-1)">FLAN та витяги</text>
+			<text x="363.8427734375" y="96" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,192) scale(1,-1)">Цитати  LRU TTL</text>
+			<path d="M 367,205 L 489,205 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 489,205 L 489,145 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 90,145 L 489,145 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 90,145 L 90,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 250,145 L 250,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 410,145 L 410,136 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 160,110 L 180,110 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 320,110 L 340,110 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="111.7158203125" y="65" style="font-family: TNR; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,130) scale(1,-1)">Корпус і граф є доказами  Інструкції з них не виконуються</text>
+			<text x="103.42626953125" y="31" style="font-family: TNR; font-size: 13px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,62) scale(1,-1)">ЛР1–9 → перевірка даних → граф і корпус → індекс</text>
+			<text x="96.3232421875" y="11" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,22) scale(1,-1)">Відповідь і джерела → аналітик   Метрики → монітор ЛР14</text>
+		</g>
+	</g>
+</svg>

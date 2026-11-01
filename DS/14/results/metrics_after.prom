@@ -1,0 +1,46 @@
+# HELP lab14_requests_total Completed HTTP requests
+# TYPE lab14_requests_total counter
+lab14_requests_total{route="/ask",status="200"} 45.0
+lab14_requests_total{route="/ask",status="422"} 5.0
+# HELP lab14_requests_created Completed HTTP requests
+# TYPE lab14_requests_created gauge
+lab14_requests_created{route="/ask",status="200"} 1.7935158929351232e+09
+lab14_requests_created{route="/ask",status="422"} 1.793515898429873e+09
+# HELP lab14_errors_total HTTP errors including validation
+# TYPE lab14_errors_total counter
+lab14_errors_total{route="/ask",status="422"} 5.0
+# HELP lab14_errors_created HTTP errors including validation
+# TYPE lab14_errors_created gauge
+lab14_errors_created{route="/ask",status="422"} 1.7935158984299161e+09
+# HELP lab14_latency_seconds HTTP processing time
+# TYPE lab14_latency_seconds histogram
+lab14_latency_seconds_bucket{le="0.01",route="/ask"} 5.0
+lab14_latency_seconds_bucket{le="0.05",route="/ask"} 5.0
+lab14_latency_seconds_bucket{le="0.1",route="/ask"} 5.0
+lab14_latency_seconds_bucket{le="0.5",route="/ask"} 29.0
+lab14_latency_seconds_bucket{le="1.0",route="/ask"} 43.0
+lab14_latency_seconds_bucket{le="2.0",route="/ask"} 49.0
+lab14_latency_seconds_bucket{le="5.0",route="/ask"} 49.0
+lab14_latency_seconds_bucket{le="10.0",route="/ask"} 49.0
+lab14_latency_seconds_bucket{le="30.0",route="/ask"} 50.0
+lab14_latency_seconds_bucket{le="60.0",route="/ask"} 50.0
+lab14_latency_seconds_bucket{le="+Inf",route="/ask"} 50.0
+lab14_latency_seconds_count{route="/ask"} 50.0
+lab14_latency_seconds_sum{route="/ask"} 54.17364629799886
+# HELP lab14_latency_seconds_created HTTP processing time
+# TYPE lab14_latency_seconds_created gauge
+lab14_latency_seconds_created{route="/ask"} 1.7935158929358697e+09
+# HELP lab14_tokens_total Successful generation tokens
+# TYPE lab14_tokens_total counter
+lab14_tokens_total{kind="input"} 14111.0
+lab14_tokens_total{kind="output"} 353.0
+# HELP lab14_tokens_created Successful generation tokens
+# TYPE lab14_tokens_created gauge
+lab14_tokens_created{kind="input"} 1.7935158929400148e+09
+lab14_tokens_created{kind="output"} 1.7935158929423926e+09
+# HELP lab14_api_cost_usd_total External API charge only
+# TYPE lab14_api_cost_usd_total counter
+lab14_api_cost_usd_total 0.0
+# HELP lab14_api_cost_usd_created External API charge only
+# TYPE lab14_api_cost_usd_created gauge
+lab14_api_cost_usd_created 1.7935089911143277e+09

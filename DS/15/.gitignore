@@ -1,0 +1,8 @@
+.env
+.venv/
+models/
+work/
+__pycache__/
+*.zip
+lab15.bundle
+MANIFEST.sha256.json

@@ -1,0 +1,1 @@
+MATCH (m:Lab8Observation) WHERE m.objectId=$objectId AND m.timestamp >= localdatetime($start) AND m.timestamp < localdatetime($end) RETURN m.timestamp AS timestamp, m.numericValue AS energy_kwh ORDER BY timestamp;

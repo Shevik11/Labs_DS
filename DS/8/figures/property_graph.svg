@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+<rect width="1200" height="800" fill="white"/>
+<g font-family="Arial" fill="#000000">
+<text x="50" y="48" font-size="27" font-weight="bold">Модель збереження енергетичних знань</text>
+<text x="50" y="80" font-size="17">Пояснювальна схема структури. Джерела: ЛР1 та семантична онтологія ЛР6.</text>
+<line x1="290" y1="175" x2="440" y2="175" stroke="#334155" stroke-width="2"/>
+<polygon points="440,175 428.0,180.0 428.0,170.0" fill="#334155"/>
+<rect x="298.0" y="139" width="134" height="24" fill="white"/>
+<text x="365" y="155" text-anchor="middle" font-size="13">CONTAINS_SERIES</text>
+<line x1="660" y1="175" x2="840" y2="175" stroke="#334155" stroke-width="2"/>
+<polygon points="840,175 828.0,180.0 828.0,170.0" fill="#334155"/>
+<rect x="707.0" y="139" width="86" height="24" fill="white"/>
+<text x="750" y="155" text-anchor="middle" font-size="13">SERIES_OF</text>
+<line x1="550" y1="220" x2="550" y2="360" stroke="#334155" stroke-width="2"/>
+<polygon points="550,360 545.0,348.0 555.0,348.0" fill="#334155"/>
+<rect x="363.0" y="279" width="134" height="24" fill="white"/>
+<text x="430" y="295" text-anchor="middle" font-size="13">HAS_MEASUREMENT</text>
+<line x1="290" y1="405" x2="440" y2="405" stroke="#334155" stroke-width="2"/>
+<polygon points="440,405 428.0,410.0 428.0,400.0" fill="#334155"/>
+<rect x="306.0" y="371" width="118" height="24" fill="white"/>
+<text x="365" y="387" text-anchor="middle" font-size="13">COMPARED_WITH</text>
+<line x1="660" y1="405" x2="840" y2="405" stroke="#334155" stroke-width="2"/>
+<polygon points="840,405 828.0,410.0 828.0,400.0" fill="#334155"/>
+<rect x="699.0" y="371" width="102" height="24" fill="white"/>
+<text x="750" y="387" text-anchor="middle" font-size="13">RECORDED_BY</text>
+<line x1="180" y1="450" x2="180" y2="580" stroke="#334155" stroke-width="2"/>
+<polygon points="180,580 175.0,568.0 185.0,568.0" fill="#334155"/>
+<rect x="205.0" y="504" width="110" height="24" fill="white"/>
+<text x="260" y="520" text-anchor="middle" font-size="13">GENERATED_BY</text>
+<line x1="660" y1="450" x2="840" y2="580" stroke="#334155" stroke-width="2"/>
+<polygon points="840,580 827.3443964899797,577.0275094958671 833.1993020284232,568.9207172118682" fill="#334155"/>
+<rect x="741.0" y="497" width="78" height="24" fill="white"/>
+<text x="780" y="513" text-anchor="middle" font-size="13">HAS_UNIT</text>
+<line x1="660" y1="360" x2="840" y2="220" stroke="#334155" stroke-width="2"/>
+<polygon points="840,220 833.5974764590586,231.31404844906066 827.4580703239095,223.42052627529742" fill="#334155"/>
+<rect x="717.0" y="274" width="126" height="24" fill="white"/>
+<text x="780" y="290" text-anchor="middle" font-size="13">MEASUREMENT_OF</text>
+<rect x="70" y="130" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="180" y="163" text-anchor="middle" font-size="18" font-weight="bold">Dataset</text>
+<text x="180" y="192" text-anchor="middle" font-size="15">Набір годинних даних</text>
+<rect x="440" y="130" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="550" y="163" text-anchor="middle" font-size="18" font-weight="bold">TimeSeries</text>
+<text x="550" y="192" text-anchor="middle" font-size="15">Часовий ряд</text>
+<rect x="840" y="130" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="950" y="163" text-anchor="middle" font-size="18" font-weight="bold">ConsumptionObject</text>
+<text x="950" y="192" text-anchor="middle" font-size="15">Домогосподарство</text>
+<rect x="70" y="360" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="180" y="393" text-anchor="middle" font-size="18" font-weight="bold">ForecastResult</text>
+<text x="180" y="422" text-anchor="middle" font-size="15">Прогноз із ЛР1</text>
+<rect x="440" y="360" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="550" y="393" text-anchor="middle" font-size="18" font-weight="bold">Measurement</text>
+<text x="550" y="422" text-anchor="middle" font-size="15">Енергія, kWh</text>
+<rect x="840" y="360" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="950" y="393" text-anchor="middle" font-size="18" font-weight="bold">Meter</text>
+<text x="950" y="422" text-anchor="middle" font-size="15">Канал обліку</text>
+<rect x="70" y="580" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="180" y="613" text-anchor="middle" font-size="18" font-weight="bold">AnalyticalModel</text>
+<text x="180" y="642" text-anchor="middle" font-size="15">Random Forest</text>
+<rect x="840" y="580" width="220" height="90" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+<text x="950" y="613" text-anchor="middle" font-size="18" font-weight="bold">Unit</text>
+<text x="950" y="642" text-anchor="middle" font-size="15">Кіловат-година</text>
+<text x="50" y="735" font-size="18">Повний граф: 43 746 вузлів, 199 287 зв’язків. Час зберігається як localdatetime.</text>
+<text x="50" y="767" font-size="16">Класи, TYPE_OF та обмеження схеми показано окремо в Neo4j. Це не скриншот інтерфейсу.</text>
+</g></svg>

@@ -1,0 +1,9 @@
+.venv/
+.clean/
+__pycache__/
+.pytest_cache/
+runtime/
+models/
+work/
+.env
+*.log

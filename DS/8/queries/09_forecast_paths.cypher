@@ -1,0 +1,1 @@
+MATCH (f:Lab8Forecast)-[:COMPARED_WITH]->(m:Lab8Observation)-[:MEASUREMENT_OF]->(h:Lab8Entity) WHERE f.targetTime >= localdatetime($start) AND f.targetTime < localdatetime($end) AND f.forecastKwh > $threshold RETURN h.name AS household, count(f) AS high_forecasts, max(abs(f.forecastKwh-m.numericValue)) AS max_error_kwh;

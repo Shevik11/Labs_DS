@@ -1,0 +1,1 @@
+MATCH p=(v:Lab8Entity {id:'owl:forecastChart'})-[:PRESENTS_RESULT]->(f:Lab8Entity)-[:GENERATED_BY]->(m:Lab8Entity) RETURN p, f.forecastKwh AS forecast_kwh, labels(v) AS visualization_types, labels(f) AS forecast_types;

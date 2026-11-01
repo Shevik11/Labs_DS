@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="1170" viewBox="0 0 1540 1170">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#46505c"/></marker></defs>
+<rect width="1540" height="1170" fill="white"/>
+<text x="770" y="45" text-anchor="middle" font-family="Arial" font-size="29" font-weight="bold" fill="#000000">Візуалізація енергетичних даних засобами програмного забезпечення</text>
+<text x="770" y="84" text-anchor="middle" font-family="Arial" font-size="20" font-weight="normal" fill="#000000">Енергетика / Програмне забезпечення / Візуалізація • Лабораторна робота №3</text>
+<line x1="340" y1="198.0" x2="440" y2="198.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="440,198.0 426.0,192.0 426.0,204.0" fill="#46505c"/>
+<rect x="343.0" y="168.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="390.0" y="187.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">обладнаний</text>
+<line x1="720" y1="198.0" x2="820" y2="198.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="820,198.0 806.0,192.0 806.0,204.0" fill="#46505c"/>
+<rect x="731.2" y="168.0" width="77.6" height="26" rx="3" fill="white"/>
+<text x="770.0" y="187.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">реєструє</text>
+<line x1="1100" y1="198.0" x2="1200" y2="198.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="1200,198.0 1186.0,192.0 1186.0,204.0" fill="#46505c"/>
+<rect x="1119.4" y="168.0" width="61.199999999999996" height="26" rx="3" fill="white"/>
+<text x="1150.0" y="187.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">описує</text>
+<line x1="340" y1="458.0" x2="440" y2="458.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="440,458.0 426.0,452.0 426.0,464.0" fill="#46505c"/>
+<rect x="343.0" y="428.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="390.0" y="447.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">опрацьовує</text>
+<line x1="720" y1="458.0" x2="820" y2="458.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="820,458.0 806.0,452.0 806.0,464.0" fill="#46505c"/>
+<rect x="735.3" y="428.0" width="69.39999999999999" height="26" rx="3" fill="white"/>
+<text x="770.0" y="447.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">містить</text>
+<line x1="1100" y1="458.0" x2="1200" y2="458.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="1200,458.0 1186.0,452.0 1186.0,464.0" fill="#46505c"/>
+<rect x="1115.3" y="428.0" width="69.39999999999999" height="26" rx="3" fill="white"/>
+<text x="1150.0" y="447.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">охоплює</text>
+<line x1="960.0" y1="410" x2="960.0" y2="246" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="960.0,246 954.0,260.0 966.0,260.0" fill="#46505c"/>
+<rect x="900.7" y="311.0" width="118.6" height="26" rx="3" fill="white"/>
+<text x="960.0" y="330.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">складається з</text>
+<line x1="200.0" y1="670" x2="200.0" y2="506" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="200.0,506 194.0,520.0 206.0,520.0" fill="#46505c"/>
+<rect x="144.8" y="571.0" width="110.39999999999999" height="26" rx="3" fill="white"/>
+<text x="200.0" y="590.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">використовує</text>
+<line x1="340" y1="506" x2="440" y2="670" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="440,670 437.83427311505903,654.9232089932956 427.58871900553055,661.1704980844714" fill="#46505c"/>
+<rect x="359.4" y="563.0" width="61.199999999999996" height="26" rx="3" fill="white"/>
+<text x="390.0" y="582.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">формує</text>
+<line x1="340" y1="718.0" x2="440" y2="718.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="440,718.0 426.0,712.0 426.0,724.0" fill="#46505c"/>
+<rect x="343.0" y="688.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="390.0" y="707.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">переглядає</text>
+<line x1="820" y1="718.0" x2="720" y2="718.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="720,718.0 734.0,724.0 734.0,712.0" fill="#46505c"/>
+<rect x="731.2" y="688.0" width="77.6" height="26" rx="3" fill="white"/>
+<text x="770.0" y="707.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">подано у</text>
+<line x1="1200" y1="718.0" x2="1100" y2="718.0" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="1100,718.0 1114.0,724.0 1114.0,712.0" fill="#46505c"/>
+<rect x="1115.3" y="688.0" width="69.39999999999999" height="26" rx="3" fill="white"/>
+<text x="1150.0" y="707.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">створює</text>
+<line x1="720" y1="670" x2="820" y2="506" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="820,506 807.5887190055306,514.8295019155286 817.8342731150591,521.0767910067044" fill="#46505c"/>
+<rect x="723.0" y="563.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="770.0" y="582.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">відображає</text>
+<line x1="1200" y1="670" x2="1100" y2="506" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="1100,506 1102.165726884941,521.0767910067044 1112.4112809944693,514.8295019155286" fill="#46505c"/>
+<rect x="1111.2" y="563.0" width="77.6" height="26" rx="3" fill="white"/>
+<text x="1150.0" y="582.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">аналізує</text>
+<line x1="960.0" y1="670" x2="960.0" y2="506" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="960.0,506 954.0,520.0 966.0,520.0" fill="#46505c"/>
+<rect x="913.0" y="571.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="960.0" y="590.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">отримано з</text>
+<line x1="1340.0" y1="930" x2="1340.0" y2="766" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="1340.0,766 1334.0,780.0 1346.0,780.0" fill="#46505c"/>
+<rect x="1256.1" y="831.0" width="167.79999999999998" height="26" rx="3" fill="white"/>
+<text x="1340.0" y="850.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">виконується моделлю</text>
+<line x1="960.0" y1="766" x2="960.0" y2="930" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="960.0,930 966.0,916.0 954.0,916.0" fill="#46505c"/>
+<rect x="913.0" y="831.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="960.0" y="850.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">оцінюється</text>
+<line x1="580.0" y1="930" x2="580.0" y2="766" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="580.0,766 574.0,780.0 586.0,780.0" fill="#46505c"/>
+<rect x="533.0" y="831.0" width="94.0" height="26" rx="3" fill="white"/>
+<text x="580.0" y="850.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">налаштовує</text>
+<line x1="200.0" y1="766" x2="200.0" y2="930" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="200.0,930 206.0,916.0 194.0,916.0" fill="#46505c"/>
+<rect x="165.3" y="831.0" width="69.39999999999999" height="26" rx="3" fill="white"/>
+<text x="200.0" y="850.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">ухвалює</text>
+<line x1="440" y1="766" x2="340" y2="930" stroke="#46505c" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="340,930 352.41128099446945,921.1704980844714 342.16572688494097,914.9232089932956" fill="#46505c"/>
+<rect x="347.1" y="823.0" width="85.8" height="26" rx="3" fill="white"/>
+<text x="390.0" y="842.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="normal" fill="#000000">підтримує</text>
+<rect x="60" y="150" width="280" height="96" rx="12" fill="#f6edcf" stroke="#55616d" stroke-width="1.5"/>
+<text x="200" y="186" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Об’єкт споживання</text>
+<text x="200" y="217" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Домогосподарство</text>
+<rect x="440" y="150" width="280" height="96" rx="12" fill="#f6edcf" stroke="#55616d" stroke-width="1.5"/>
+<text x="580" y="186" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Засіб обліку</text>
+<text x="580" y="217" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Лічильник / підлічильник</text>
+<rect x="820" y="150" width="280" height="96" rx="12" fill="#e7eff7" stroke="#55616d" stroke-width="1.5"/>
+<text x="960" y="186" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Вимірювання</text>
+<text x="960" y="217" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Значення у певний час</text>
+<rect x="1200" y="150" width="280" height="96" rx="12" fill="#e7eff7" stroke="#55616d" stroke-width="1.5"/>
+<text x="1340" y="186" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Енергетичний показник</text>
+<text x="1340" y="217" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Потужність, енергія, напруга</text>
+<rect x="60" y="410" width="280" height="96" rx="12" fill="#e4eee7" stroke="#55616d" stroke-width="1.5"/>
+<text x="200" y="446" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Програмний модуль</text>
+<text x="200" y="477" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Обробка та подання даних</text>
+<rect x="440" y="410" width="280" height="96" rx="12" fill="#e7eff7" stroke="#55616d" stroke-width="1.5"/>
+<text x="580" y="446" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Набір даних</text>
+<text x="580" y="477" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Годинні дані споживання</text>
+<rect x="820" y="410" width="280" height="96" rx="12" fill="#e7eff7" stroke="#55616d" stroke-width="1.5"/>
+<text x="960" y="446" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Часовий ряд</text>
+<text x="960" y="477" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Послідовність спостережень</text>
+<rect x="1200" y="410" width="280" height="96" rx="12" fill="#e7eff7" stroke="#55616d" stroke-width="1.5"/>
+<text x="1340" y="446" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Часовий інтервал</text>
+<text x="1340" y="477" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Година, доба, тиждень</text>
+<rect x="60" y="670" width="280" height="96" rx="12" fill="#f2e8ee" stroke="#55616d" stroke-width="1.5"/>
+<text x="200" y="706" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Користувач</text>
+<text x="200" y="737" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Аналітик / споживач</text>
+<rect x="440" y="670" width="280" height="96" rx="12" fill="#e4eee7" stroke="#55616d" stroke-width="1.5"/>
+<text x="580" y="706" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Візуалізація</text>
+<text x="580" y="737" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Графік, теплова карта</text>
+<rect x="820" y="670" width="280" height="96" rx="12" fill="#eee9f7" stroke="#55616d" stroke-width="1.5"/>
+<text x="960" y="706" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Результат аналізу</text>
+<text x="960" y="737" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Прогноз, клас, кластер</text>
+<rect x="1200" y="670" width="280" height="96" rx="12" fill="#eee9f7" stroke="#55616d" stroke-width="1.5"/>
+<text x="1340" y="706" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Аналітична модель</text>
+<text x="1340" y="737" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Прогнозування / класифікація / групування</text>
+<rect x="60" y="930" width="280" height="96" rx="12" fill="#f2e8ee" stroke="#55616d" stroke-width="1.5"/>
+<text x="200" y="966" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Рішення користувача</text>
+<text x="200" y="997" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Перевірити режим споживання</text>
+<rect x="440" y="930" width="280" height="96" rx="12" fill="#e4eee7" stroke="#55616d" stroke-width="1.5"/>
+<text x="580" y="966" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Фільтр подання</text>
+<text x="580" y="997" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Період, показник, клас</text>
+<rect x="820" y="930" width="280" height="96" rx="12" fill="#eee9f7" stroke="#55616d" stroke-width="1.5"/>
+<text x="960" y="966" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Метрика якості</text>
+<text x="960" y="997" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Точність і похибка прогнозу</text>
+<rect x="1200" y="930" width="280" height="96" rx="12" fill="#eee9f7" stroke="#55616d" stroke-width="1.5"/>
+<text x="1340" y="966" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#000000">Аналітичне завдання</text>
+<text x="1340" y="997" text-anchor="middle" font-family="Arial" font-size="16" font-weight="normal" fill="#000000">Класифікація, регресія, кластери</text>
+<text x="770" y="1085" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#000000">Стрілка: поняття → відношення → поняття. Другий рядок вузла містить приклади.</text>
+<text x="770" y="1119" text-anchor="middle" font-family="Arial" font-size="19" font-weight="normal" fill="#000000">16 концептів • 20 напрямлених зв’язків • Концептуальна модель для подальшої бази знань</text>
+</svg>

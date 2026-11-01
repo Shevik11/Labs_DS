@@ -1,0 +1,1 @@
+CREATE CONSTRAINT lab8_entity_id IF NOT EXISTS FOR (n:Lab8Entity) REQUIRE n.id IS UNIQUE;

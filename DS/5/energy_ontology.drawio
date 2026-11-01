@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Ієрархія класів" id="Ієрархія класів">
+    <mxGraphModel page="1" pageWidth="1680" pageHeight="1360">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ConsumptionObject" value="Об’єкт споживання&#10;ConsumptionObject" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="110" width="260" height="62" />
+        </mxCell>
+        <mxCell id="ConsumptionObject_children" value="Домогосподарство  [Household]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="370" y="101" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_ConsumptionObject" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="ConsumptionObject_children" target="ConsumptionObject">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="Meter" value="Засіб обліку&#10;Meter" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="240" width="260" height="62" />
+        </mxCell>
+        <mxCell id="Meter_children" value="Підлічильник  [Submeter]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="370" y="231" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_Meter" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="Meter_children" target="Meter">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="Measurement" value="Вимірювання&#10;Measurement" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="370" width="260" height="62" />
+        </mxCell>
+        <mxCell id="Measurement_children" value="Вимірювання енергії  [EnergyMeasurement]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="370" y="361" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_Measurement" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="Measurement_children" target="Measurement">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="EnergyIndicator" value="Енергетичний показник&#10;EnergyIndicator" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="500" width="260" height="62" />
+        </mxCell>
+        <mxCell id="SoftwareModule" value="Програмний модуль&#10;SoftwareModule" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="630" width="260" height="62" />
+        </mxCell>
+        <mxCell id="Dataset" value="Набір даних&#10;Dataset" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="760" width="260" height="62" />
+        </mxCell>
+        <mxCell id="TimeSeries" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="890" width="260" height="62" />
+        </mxCell>
+        <mxCell id="TimeInterval" value="Часовий інтервал&#10;TimeInterval" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1020" width="260" height="62" />
+        </mxCell>
+        <mxCell id="User" value="Користувач&#10;User" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1150" width="260" height="62" />
+        </mxCell>
+        <mxCell id="User_children" value="Аналітик  [Analyst]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="370" y="1141" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_User" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="User_children" target="User">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="Visualization" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="110" width="260" height="62" />
+        </mxCell>
+        <mxCell id="Visualization_children" value="Лінійний графік  [LineChart]&#10;Теплова карта  [Heatmap]&#10;Візуалізація прогнозу  [ForecastVisualization]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="101" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_Visualization" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="Visualization_children" target="Visualization">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="AnalysisResult" value="Результат аналізу&#10;AnalysisResult" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="240" width="260" height="62" />
+        </mxCell>
+        <mxCell id="AnalysisResult_children" value="Прогноз наступної години  [ForecastResult]&#10;Результат класифікації  [ClassificationResult]&#10;Результат кластеризації  [ClusterResult]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="231" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_AnalysisResult" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AnalysisResult_children" target="AnalysisResult">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="AnalyticalModel" value="Аналітична модель&#10;AnalyticalModel" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="370" width="260" height="62" />
+        </mxCell>
+        <mxCell id="AnalyticalModel_children" value="Регресійна модель  [RegressionModel]&#10;Модель класифікації  [ClassificationModel]&#10;Модель кластеризації  [ClusteringModel]" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f5ec;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1200" y="361" width="450" height="86" />
+        </mxCell>
+        <mxCell id="h_AnalyticalModel" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=0;" edge="1" parent="1" source="AnalyticalModel_children" target="AnalyticalModel">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="Decision" value="Рішення користувача&#10;Decision" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="500" width="260" height="62" />
+        </mxCell>
+        <mxCell id="ViewFilter" value="Фільтр подання&#10;ViewFilter" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="630" width="260" height="62" />
+        </mxCell>
+        <mxCell id="QualityMetric" value="Метрика якості&#10;QualityMetric" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="760" width="260" height="62" />
+        </mxCell>
+        <mxCell id="AnalysisTask" value="Аналітичне завдання&#10;AnalysisTask" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="890" width="260" height="62" />
+        </mxCell>
+        <mxCell id="Unit" value="Одиниця вимірювання&#10;Unit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="875" y="1020" width="260" height="62" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Зв’язки 1" id="Зв’язки 1">
+    <mxGraphModel page="1" pageWidth="1300" pageHeight="1050">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0_0_a" value="Об’єкт споживання&#10;ConsumptionObject" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="115" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_0_b" value="Засіб обліку&#10;Meter" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="115" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_0_edge" value="обладнаний&#10;hasMeter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_0_a" target="0_0_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_1_a" value="Засіб обліку&#10;Meter" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="220" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_1_b" value="Вимірювання&#10;Measurement" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="220" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_1_edge" value="реєструє&#10;records" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_1_a" target="0_1_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_2_a" value="Вимірювання&#10;Measurement" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="325" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_2_b" value="Енергетичний показник&#10;EnergyIndicator" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="325" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_2_edge" value="описує&#10;observesIndicator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_2_a" target="0_2_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_3_a" value="Програмний модуль&#10;SoftwareModule" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="430" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_3_b" value="Набір даних&#10;Dataset" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="430" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_3_edge" value="опрацьовує&#10;processes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_3_a" target="0_3_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_4_a" value="Набір даних&#10;Dataset" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="535" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_4_b" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="535" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_4_edge" value="містить&#10;containsSeries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_4_a" target="0_4_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_5_a" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="640" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_5_b" value="Часовий інтервал&#10;TimeInterval" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="640" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_5_edge" value="охоплює&#10;coversInterval" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_5_a" target="0_5_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_6_a" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="745" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_6_b" value="Вимірювання&#10;Measurement" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="745" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_6_edge" value="складається з&#10;hasMeasurement" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_6_a" target="0_6_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="0_7_a" value="Користувач&#10;User" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="850" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_7_b" value="Програмний модуль&#10;SoftwareModule" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="850" width="295" height="64" />
+        </mxCell>
+        <mxCell id="0_7_edge" value="використовує&#10;usesModule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="0_7_a" target="0_7_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Зв’язки 2" id="Зв’язки 2">
+    <mxGraphModel page="1" pageWidth="1300" pageHeight="1050">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1_0_a" value="Програмний модуль&#10;SoftwareModule" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="115" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_0_b" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="115" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_0_edge" value="формує&#10;createsVisualization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_0_a" target="1_0_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_1_a" value="Користувач&#10;User" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="220" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_1_b" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="220" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_1_edge" value="переглядає&#10;views" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_1_a" target="1_1_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_2_a" value="Результат аналізу&#10;AnalysisResult" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="325" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_2_b" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="325" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_2_edge" value="подано у&#10;presentedIn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_2_a" target="1_2_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_3_a" value="Аналітична модель&#10;AnalyticalModel" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="430" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_3_b" value="Результат аналізу&#10;AnalysisResult" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="430" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_3_edge" value="створює&#10;producesResult" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_3_a" target="1_3_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_4_a" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="535" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_4_b" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="535" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_4_edge" value="відображає&#10;displaysSeries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_4_a" target="1_4_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_5_a" value="Аналітична модель&#10;AnalyticalModel" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="640" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_5_b" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="640" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_5_edge" value="аналізує&#10;analyzesSeries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_5_a" target="1_5_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_6_a" value="Результат аналізу&#10;AnalysisResult" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="745" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_6_b" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="745" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_6_edge" value="отримано з&#10;derivedFromSeries" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_6_a" target="1_6_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="1_7_a" value="Аналітичне завдання&#10;AnalysisTask" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="850" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_7_b" value="Аналітична модель&#10;AnalyticalModel" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="850" width="295" height="64" />
+        </mxCell>
+        <mxCell id="1_7_edge" value="виконується моделлю&#10;implementedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="1_7_a" target="1_7_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Зв’язки 3" id="Зв’язки 3">
+    <mxGraphModel page="1" pageWidth="1300" pageHeight="1050">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2_0_a" value="Результат аналізу&#10;AnalysisResult" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="115" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_0_b" value="Метрика якості&#10;QualityMetric" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="115" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_0_edge" value="оцінюється&#10;evaluatedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_0_a" target="2_0_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="2_1_a" value="Фільтр подання&#10;ViewFilter" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="220" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_1_b" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="220" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_1_edge" value="налаштовує&#10;configures" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_1_a" target="2_1_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="2_2_a" value="Користувач&#10;User" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="325" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_2_b" value="Рішення користувача&#10;Decision" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="325" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_2_edge" value="ухвалює&#10;makesDecision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_2_a" target="2_2_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="2_3_a" value="Візуалізація&#10;Visualization" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="430" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_3_b" value="Рішення користувача&#10;Decision" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="430" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_3_edge" value="підтримує&#10;supportsDecision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_3_a" target="2_3_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="2_4_a" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="535" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_4_b" value="Об’єкт споживання&#10;ConsumptionObject" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="535" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_4_edge" value="Ряд об’єкта&#10;seriesOf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_4_a" target="2_4_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="2_5_a" value="Часовий ряд&#10;TimeSeries" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="640" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_5_b" value="Енергетичний показник&#10;EnergyIndicator" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="640" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_5_edge" value="Показник ряду&#10;seriesIndicator" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_5_a" target="2_5_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="2_6_a" value="Вимірювання&#10;Measurement" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="745" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_6_b" value="Одиниця вимірювання&#10;Unit" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0fb;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="965" y="745" width="295" height="64" />
+        </mxCell>
+        <mxCell id="2_6_edge" value="Одиниця вимірювання&#10;hasUnit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" edge="1" parent="1" source="2_6_a" target="2_6_b">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

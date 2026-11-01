@@ -1,0 +1,1 @@
+MATCH (m:Lab8Observation)-[:MEASUREMENT_OF]->(h:Lab8Entity) WHERE m.objectId=$objectId AND m.timestamp >= localdatetime($start) AND m.timestamp < localdatetime($end) RETURN h.name AS household, date(m.timestamp) AS day, count(m) AS hours, sum(m.numericValue) AS energy_kwh ORDER BY day;

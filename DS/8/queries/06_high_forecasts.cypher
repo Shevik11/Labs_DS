@@ -1,0 +1,1 @@
+MATCH (f:Lab8Forecast) WHERE f.targetTime >= localdatetime($start) AND f.targetTime < localdatetime($end) AND f.forecastKwh > $threshold RETURN f.targetTime AS timestamp, f.forecastKwh AS forecast_kwh, f.predictedHigh AS classifier_label ORDER BY timestamp;

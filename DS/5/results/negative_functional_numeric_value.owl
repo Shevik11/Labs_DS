@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://example.org/lnu/energy-visualization#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="N0fecec3e8b7841c398362415f0bca8de">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Ne3305cefc10a4d94b7ad3f3c740ebb45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ForecastResult">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdfs:subClassOf rdf:nodeID="Neacaff3400f144a49d6f0533cbf3f802"/>
+    <rdfs:subClassOf rdf:nodeID="N53f82aa380da4bbc8fe3250e2c16c151"/>
+    <rdfs:subClassOf rdf:nodeID="Nb49da109b8f140eaa21624ec21d8e850"/>
+    <rdfs:label xml:lang="uk">Прогноз наступної години</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#lineChart">
+    <ns1:supportsDecision rdf:resource="https://example.org/lnu/energy-visualization#decision"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lineChart</ns1:identifier>
+    <ns1:displaysSeries rdf:resource="https://example.org/lnu/energy-visualization#series"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#LineChart"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Графік трьох годин</ns1:name>
+    <ns1:xAxis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">локальний час</ns1:xAxis>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Графік трьох годин</rdfs:label>
+    <ns1:yAxis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">енергія, kWh</ns1:yAxis>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naec99c0d874c4b488309c0c174360dcf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N53e768854f3445daa8e1331aa649efc2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naee54e4f0e9148c49ae7be0d8d453d6b">
+    <rdf:rest rdf:nodeID="N4f8197c685d84139b3e916c05e4bc9d4"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#TimeInterval">
+    <rdfs:comment xml:lang="uk">Проміжок часу, до якого належать спостереження або результати.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:label xml:lang="uk">Часовий інтервал</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Дані споживання</ns1:topicGroup>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#kWh">
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kWh</ns1:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Unit"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Кіловат-година</ns1:name>
+    <ns1:symbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kWh</ns1:symbol>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Кіловат-година</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#role">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#User"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Роль</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd6c23e3ac15e45dca0830b5c284519cf">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdf:rest rdf:nodeID="N507db8f567b94819afc1e5b7ecd63779"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf05643b4b4b74dc589f20cdeb201b52c">
+    <rdf:rest rdf:nodeID="Nd6c23e3ac15e45dca0830b5c284519cf"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ConsumptionObject">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:label xml:lang="uk">Об’єкт споживання</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Енергетичний контекст</ns1:topicGroup>
+    <rdfs:comment xml:lang="uk">Фізичний об’єкт, для якого аналізують споживання електроенергії.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc3aaf6a831e746aabc67cc0928059d65">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#hasUnit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ClassificationModel">
+    <rdfs:label xml:lang="uk">Модель класифікації</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#forecastChart">
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forecastChart</ns1:identifier>
+    <rdfs:label xml:lang="uk">Графік результату прогнозу</rdfs:label>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#LineChart"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:yAxis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">енергія, kWh</ns1:yAxis>
+    <ns1:displaysSeries rdf:resource="https://example.org/lnu/energy-visualization#predictionSeries"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Графік результату прогнозу</ns1:name>
+    <ns1:xAxis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">локальний час</ns1:xAxis>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#filterField">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#ViewFilter"/>
+    <rdfs:label xml:lang="uk">Поле фільтра</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#regressor">
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regressor</ns1:identifier>
+    <rdfs:label xml:lang="uk">Random Forest із ЛР1</rdfs:label>
+    <ns1:modelVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lab1</ns1:modelVersion>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random Forest із ЛР1</ns1:name>
+    <ns1:producesResult rdf:resource="https://example.org/lnu/energy-visualization#forecast"/>
+    <ns1:algorithm rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RandomForestRegressor</ns1:algorithm>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#RegressionModel"/>
+    <ns1:analyzesSeries rdf:resource="https://example.org/lnu/energy-visualization#predictionSeries"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#measurement3">
+    <ns1:hasUnit rdf:resource="https://example.org/lnu/energy-visualization#kWh"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#EnergyMeasurement"/>
+    <ns1:observesIndicator rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <ns1:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-16T20:00:00</ns1:timestamp>
+    <ns1:qualityFlag rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete_hour</ns1:qualityFlag>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement3</ns1:identifier>
+    <ns1:numericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2685666666666666</ns1:numericValue>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Енергія 2006-12-16 20:00:00</ns1:name>
+    <rdfs:comment xml:lang="uk">Реальне агреговане значення з ЛР1: inputs/lab1_sample.json; одиниця kWh. Не миттєва потужність.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Енергія 2006-12-16 20:00:00</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#qualityFlag">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdfs:label xml:lang="uk">Ознака якості</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#producesResult">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdfs:label xml:lang="uk">створює</rdfs:label>
+    <owl:inverseOf rdf:resource="https://example.org/lnu/energy-visualization#generatedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#AnalyticalModel">
+    <rdfs:label xml:lang="uk">Аналітична модель</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Аналітика</ns1:topicGroup>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:comment xml:lang="uk">Метод із визначеними параметрами, який виконує аналітичне завдання.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N99593db2b7254941a77f4287058a6388">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#name"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#measurement1">
+    <ns1:numericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6321999999999997</ns1:numericValue>
+    <ns1:numericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">999</ns1:numericValue>
+    <rdfs:comment xml:lang="uk">Реальне агреговане значення з ЛР1: inputs/lab1_sample.json; одиниця kWh. Не миттєва потужність.</rdfs:comment>
+    <ns1:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-16T18:00:00</ns1:timestamp>
+    <ns1:hasUnit rdf:resource="https://example.org/lnu/energy-visualization#kWh"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#EnergyMeasurement"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement1</ns1:identifier>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Енергія 2006-12-16 18:00:00</ns1:name>
+    <ns1:observesIndicator rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <ns1:qualityFlag rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete_hour</ns1:qualityFlag>
+    <rdfs:label xml:lang="uk">Енергія 2006-12-16 18:00:00</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Measurement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Вимірювання</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N1946d07dffb4493a92ea71b801c09447"/>
+    <rdfs:subClassOf rdf:nodeID="Nc3aaf6a831e746aabc67cc0928059d65"/>
+    <rdfs:subClassOf rdf:nodeID="N3ae5686daa97462389eefc33b56b6932"/>
+    <rdfs:subClassOf rdf:nodeID="Nfb6b64b276a34e7fa5255cbac4ef8f70"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:subClassOf rdf:nodeID="N180a2127fd414ae98d302ffd5627e370"/>
+    <rdfs:subClassOf rdf:nodeID="Naa16082ecc7f43e48becf3652ad7bc83"/>
+    <ns1:topicGroup xml:lang="uk">Дані споживання</ns1:topicGroup>
+    <rdfs:comment xml:lang="uk">Спостереження показника з часовою міткою, значенням, одиницею та ознакою якості.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neacaff3400f144a49d6f0533cbf3f802">
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#generatedBy"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/lnu/energy-visualization#RegressionModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#startTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label xml:lang="uk">Початок</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nacdbff95475d4f91a8e735c50a0d0de2">
+    <rdf:rest rdf:nodeID="Ne6bf3fad275a43ec955581814af938d2"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#TimeSeries">
+    <rdfs:comment xml:lang="uk">Упорядковані за часом вимірювання одного показника одного об’єкта.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="N7369f61f3ef94e9fad51d6769c54fc16"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:subClassOf rdf:nodeID="N929b6092ad864832a1b2b6b7b808176f"/>
+    <rdfs:subClassOf rdf:nodeID="N0aacd1f897ef44eea746d62d996372bb"/>
+    <rdfs:subClassOf rdf:nodeID="N97a857d52ffc4098b233eac18e1498b5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ns1:topicGroup xml:lang="uk">Дані споживання</ns1:topicGroup>
+    <rdfs:label xml:lang="uk">Часовий ряд</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#measurement2">
+    <ns1:qualityFlag rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete_hour</ns1:qualityFlag>
+    <rdfs:comment xml:lang="uk">Реальне агреговане значення з ЛР1: inputs/lab1_sample.json; одиниця kWh. Не миттєва потужність.</rdfs:comment>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement2</ns1:identifier>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Енергія 2006-12-16 19:00:00</ns1:name>
+    <ns1:hasUnit rdf:resource="https://example.org/lnu/energy-visualization#kWh"/>
+    <rdfs:label xml:lang="uk">Енергія 2006-12-16 19:00:00</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#EnergyMeasurement"/>
+    <ns1:observesIndicator rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <ns1:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-16T19:00:00</ns1:timestamp>
+    <ns1:numericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4002333333333334</ns1:numericValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2e038a69385d4a52ac328a134ac35afa">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#User"/>
+    <rdf:rest rdf:nodeID="Nef961e7d8ad94f148d8f84c1e85b46cd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ForecastVisualization">
+    <owl:equivalentClass rdf:nodeID="N39a6028cd32349c8a7743bba66123b97"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+    <rdfs:label xml:lang="uk">Візуалізація прогнозу</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#analyst">
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Демонстраційний аналітик</ns1:name>
+    <rdfs:label xml:lang="uk">Демонстраційний аналітик</rdfs:label>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:role rdf:datatype="http://www.w3.org/2001/XMLSchema#string">аналітик</ns1:role>
+    <ns1:usesModule rdf:resource="https://example.org/lnu/energy-visualization#module"/>
+    <ns1:views rdf:resource="https://example.org/lnu/energy-visualization#heatmap"/>
+    <ns1:views rdf:resource="https://example.org/lnu/energy-visualization#lineChart"/>
+    <ns1:views rdf:resource="https://example.org/lnu/energy-visualization#forecastChart"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Analyst"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analyst</ns1:identifier>
+    <ns1:makesDecision rdf:resource="https://example.org/lnu/energy-visualization#decision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#forecast">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#ForecastResult"/>
+    <rdfs:label xml:lang="uk">Прогноз із ЛР1</rdfs:label>
+    <ns1:forecastKwh rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9519405504171758</ns1:forecastKwh>
+    <ns1:evaluatedBy rdf:resource="https://example.org/lnu/energy-visualization#mae"/>
+    <ns1:presentedIn rdf:resource="https://example.org/lnu/energy-visualization#forecastChart"/>
+    <ns1:targetTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-09T20:00:00</ns1:targetTime>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Прогноз із ЛР1</ns1:name>
+    <ns1:derivedFromSeries rdf:resource="https://example.org/lnu/energy-visualization#predictionSeries"/>
+    <ns1:resultValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.9519405504171758</ns1:resultValue>
+    <rdfs:comment xml:lang="uk">Реальний збережений прогноз ЛР1; модель у ЛР5 повторно не навчалася. derivedFromSeries позначає цільовий ряд, а не перелік лагових ознак.</rdfs:comment>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forecast</ns1:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4b7b5d0124904fa686a7d561c7f514c8">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#submeter"/>
+    <rdf:rest rdf:nodeID="N3dda9280ad5f44de84d2fb5d118b7ef3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#makesDecision">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#User"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Decision"/>
+    <rdfs:label xml:lang="uk">ухвалює</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#series">
+    <ns1:seriesOf rdf:resource="https://example.org/lnu/energy-visualization#household"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <ns1:coversInterval rdf:resource="https://example.org/lnu/energy-visualization#period"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:hasMeasurement rdf:resource="https://example.org/lnu/energy-visualization#measurement2"/>
+    <ns1:hasMeasurement rdf:resource="https://example.org/lnu/energy-visualization#measurement3"/>
+    <ns1:hasMeasurement rdf:resource="https://example.org/lnu/energy-visualization#measurement1"/>
+    <ns1:stepMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">60</ns1:stepMinutes>
+    <ns1:missingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</ns1:missingCount>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Приклад годинного ряду</ns1:name>
+    <ns1:seriesIndicator rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">series</ns1:identifier>
+    <rdfs:label xml:lang="uk">Приклад годинного ряду</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#predictionDataset">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+    <rdfs:label xml:lang="uk">Одне фактичне спостереження з тесту ЛР1</rdfs:label>
+    <rdfs:comment xml:lang="uk">Перший рядок test_predictions.csv; початкова тестова вибірка мала 9530 рядків.</rdfs:comment>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Одне фактичне спостереження з тесту ЛР1</ns1:name>
+    <ns1:sourceURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.24432/C58K54</ns1:sourceURI>
+    <ns1:containsSeries rdf:resource="https://example.org/lnu/energy-visualization#predictionSeries"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predictionDataset</ns1:identifier>
+    <ns1:recordCount rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</ns1:recordCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#softwareVersion">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#SoftwareModule"/>
+    <rdfs:label xml:lang="uk">Версія модуля</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#displaysSeries">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+    <rdfs:label xml:lang="uk">відображає</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#views">
+    <rdfs:label xml:lang="uk">переглядає</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#User"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#sourceURI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+    <rdfs:label xml:lang="uk">Адреса джерела</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#records">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdfs:label xml:lang="uk">реєструє</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+    <owl:inverseOf rdf:resource="https://example.org/lnu/energy-visualization#recordedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#targetTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdfs:label xml:lang="uk">Цільовий час</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc7010b91b2b145b4bdea1407ae5eb2d1">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#lineChart"/>
+    <rdf:rest rdf:nodeID="N8216901cf3184ae38de177ef73aba258"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Dataset">
+    <rdfs:label xml:lang="uk">Набір даних</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:subClassOf rdf:nodeID="N46f8dfb0991446db81981db9620e7bbb"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="uk">Сукупність спостережень, підготовлених для аналізу.</rdfs:comment>
+    <ns1:topicGroup xml:lang="uk">Дані споживання</ns1:topicGroup>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01543d0149884cb5b0be4c8f3c0eef31">
+    <rdf:rest rdf:nodeID="N48f2233bb2604831b052f58722b67f18"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#period"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N507db8f567b94819afc1e5b7ecd63779">
+    <rdf:rest rdf:nodeID="N93d966d1924f46e98930e98684296b5c"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Decision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#name">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:label xml:lang="uk">Назва</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c4005279e1a459fbe2f26280cf7edf4">
+    <owl:distinctMembers rdf:nodeID="Nb364c42f078a4bec905be84fc5b94c3b"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#SoftwareModule">
+    <ns1:topicGroup xml:lang="uk">Програмне подання</ns1:topicGroup>
+    <rdfs:label xml:lang="uk">Програмний модуль</rdfs:label>
+    <rdfs:comment xml:lang="uk">Компонент програми, який перевіряє й перетворює дані та формує їх візуальне подання.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb6b64b276a34e7fa5255cbac4ef8f70">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#numericValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Visualization">
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:subClassOf rdf:nodeID="N5fb06d88165b49e9abc2a7c5cbda191f"/>
+    <rdfs:label xml:lang="uk">Візуалізація</rdfs:label>
+    <rdfs:comment xml:lang="uk">Графічне подання спостережень або аналітичного результату з підписами та одиницями.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ns1:topicGroup xml:lang="uk">Програмне подання</ns1:topicGroup>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#timestamp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label xml:lang="uk">Початок інтервалу вимірювання</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#presentsResult">
+    <rdfs:label xml:lang="uk">Обернене: подано у</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#aggregationMethod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Спосіб обчислення</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#EnergyIndicator">
+    <rdfs:label xml:lang="uk">Енергетичний показник</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:comment xml:lang="uk">Величина, яку спостерігають або обчислюють; енергію за годину отримують агрегуванням.</rdfs:comment>
+    <ns1:topicGroup xml:lang="uk">Енергетичний контекст</ns1:topicGroup>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#missingCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdfs:label xml:lang="uk">Кількість пропусків</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#usesModule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">використовує</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#User"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#SoftwareModule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#targetMeasurement">
+    <rdfs:label xml:lang="uk">Фактична енергія тестової години</rdfs:label>
+    <ns1:qualityFlag rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complete_hour</ns1:qualityFlag>
+    <ns1:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-09T20:00:00</ns1:timestamp>
+    <rdfs:comment xml:lang="uk">Реальне actual_kwh першого рядка test_predictions.csv ЛР1.</rdfs:comment>
+    <ns1:hasUnit rdf:resource="https://example.org/lnu/energy-visualization#kWh"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">targetMeasurement</ns1:identifier>
+    <ns1:numericValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.12</ns1:numericValue>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#EnergyMeasurement"/>
+    <ns1:observesIndicator rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Фактична енергія тестової години</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf236ceaae5f94e8cb4cdbf23ab099f2d">
+    <rdf:rest rdf:nodeID="Naee54e4f0e9148c49ae7be0d8d453d6b"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#SoftwareModule"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N83c6f3b754464ac884b0f0bf06e75edd">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#household"/>
+    <rdf:rest rdf:nodeID="N9d77e414c3a942d9b5867a7bea65f5be"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Meter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="uk">Засіб отримання вимірювань енергоспоживання об’єкта.</rdfs:comment>
+    <ns1:topicGroup xml:lang="uk">Енергетичний контекст</ns1:topicGroup>
+    <rdfs:label xml:lang="uk">Засіб обліку</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N27b65594861f41c3bdb8ac64d013200a">
+    <rdf:rest rdf:nodeID="N8514d45a5bed4c69a93530b156b3c7bb"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#measurement2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#recordedBy">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+    <rdfs:label xml:lang="uk">Обернене: реєструє</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9008ab2a0e7a45a88b19d6a0ae16f358">
+    <rdf:rest rdf:nodeID="Nef33332577fa425e8761d5cb435e6f34"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#hasMeter">
+    <rdfs:label xml:lang="uk">обладнаний</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#ConsumptionObject"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="https://example.org/lnu/energy-visualization#installedAt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#AnalysisTask">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="uk">Постановка аналізу з визначеними входами, очікуваним результатом і критеріями оцінювання.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Аналітичне завдання</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Аналітика</ns1:topicGroup>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#installedAt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">Обернене: обладнаний</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#ConsumptionObject"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N929b6092ad864832a1b2b6b7b808176f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#coversInterval"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#decision">
+    <rdfs:label xml:lang="uk">Перевірка режиму споживання</rdfs:label>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decision</ns1:identifier>
+    <ns1:decisionText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Переглянути профіль споживання перед прийняттям рішення.</ns1:decisionText>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Decision"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Перевірка режиму споживання</ns1:name>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46f8dfb0991446db81981db9620e7bbb">
+    <owl:someValuesFrom rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#containsSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#dataset">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Три години з ЛР1</ns1:name>
+    <ns1:containsSeries rdf:resource="https://example.org/lnu/energy-visualization#series"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dataset</ns1:identifier>
+    <ns1:sourceURI rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://doi.org/10.24432/C58K54</ns1:sourceURI>
+    <rdfs:label xml:lang="uk">Три години з ЛР1</rdfs:label>
+    <rdfs:comment xml:lang="uk">Перші три рядки hourly_clean.csv ЛР1, без повторного очищення.</rdfs:comment>
+    <ns1:recordCount rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</ns1:recordCount>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9226b74438c14f12923fe102bd91fcea">
+    <rdf:rest rdf:nodeID="N83c6f3b754464ac884b0f0bf06e75edd"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#heatmap"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53f82aa380da4bbc8fe3250e2c16c151">
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#targetTime"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#belongsToDataset">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+    <rdfs:label xml:lang="uk">Обернене: містить</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#algorithm">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdfs:label xml:lang="uk">Алгоритм</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#evaluationScope">
+    <rdfs:label xml:lang="uk">Вибірка оцінювання</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#QualityMetric"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#observesIndicator">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+    <rdfs:label xml:lang="uk">описує</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6bf3fad275a43ec955581814af938d2">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+    <rdf:rest rdf:nodeID="Nf236ceaae5f94e8cb4cdbf23ab099f2d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#configures">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="uk">налаштовує</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#ViewFilter"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#EnergyMeasurement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Вимірювання енергії</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Household">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Домогосподарство</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#ConsumptionObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1b1a0486c93549b594c4ed4fa4e0091c">
+    <rdf:rest rdf:nodeID="Neb8602b506304afa89f8aaec6f062a67"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#implementedBy">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdfs:label xml:lang="uk">виконується моделлю</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisTask"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#predictionSeries">
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predictionSeries</ns1:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <ns1:seriesOf rdf:resource="https://example.org/lnu/energy-visualization#household"/>
+    <ns1:hasMeasurement rdf:resource="https://example.org/lnu/energy-visualization#targetMeasurement"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Цільовий тестовий ряд (фрагмент)</ns1:name>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:stepMinutes rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">60</ns1:stepMinutes>
+    <ns1:missingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</ns1:missingCount>
+    <ns1:coversInterval rdf:resource="https://example.org/lnu/energy-visualization#predictionPeriod"/>
+    <ns1:seriesIndicator rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <rdfs:label xml:lang="uk">Цільовий тестовий ряд (фрагмент)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#DomainEntity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N99593db2b7254941a77f4287058a6388"/>
+    <rdfs:subClassOf rdf:nodeID="N7d613c5910eb4e9c9d96945ca3fc472e"/>
+    <rdfs:label xml:lang="uk">Сутність предметної області</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#energy">
+    <ns1:indicatorUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kWh</ns1:indicatorUnit>
+    <rdfs:label xml:lang="uk">Енергія за годину</rdfs:label>
+    <ns1:aggregationMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Сума хвилинної активної потужності / 60 для повної години</ns1:aggregationMethod>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">energy</ns1:identifier>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Енергія за годину</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#submeter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Submeter"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Демонстраційний підлічильник</rdfs:label>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">submeter</ns1:identifier>
+    <ns1:channel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sub_metering_1</ns1:channel>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Демонстраційний підлічильник</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#endTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdfs:label xml:lang="uk">Кінець (невключно)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb848f179edaf4dcd98ba22336b86cb0c">
+    <owl:members rdf:nodeID="N9008ab2a0e7a45a88b19d6a0ae16f358"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6630802c4a30488ba814ed284c8842e1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="https://example.org/lnu/energy-visualization#ForecastResult"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#presentsResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#objectType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#ConsumptionObject"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Тип об’єкта</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc90dc47c6a0949ccb1876d8c84388026">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#AnalysisTask"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#numericValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:label xml:lang="uk">Числове значення</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#module">
+    <ns1:createsVisualization rdf:resource="https://example.org/lnu/energy-visualization#lineChart"/>
+    <ns1:createsVisualization rdf:resource="https://example.org/lnu/energy-visualization#heatmap"/>
+    <ns1:createsVisualization rdf:resource="https://example.org/lnu/energy-visualization#forecastChart"/>
+    <rdfs:label xml:lang="uk">Модуль аналізу та візуалізації</rdfs:label>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#SoftwareModule"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">module</ns1:identifier>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Модуль аналізу та візуалізації</ns1:name>
+    <ns1:processes rdf:resource="https://example.org/lnu/energy-visualization#dataset"/>
+    <ns1:softwareVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lab1</ns1:softwareVersion>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#task">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#AnalysisTask"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:taskType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">регресія</ns1:taskType>
+    <ns1:horizonHours rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</ns1:horizonHours>
+    <ns1:implementedBy rdf:resource="https://example.org/lnu/energy-visualization#regressor"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">task</ns1:identifier>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Прогноз наступної години</ns1:name>
+    <rdfs:label xml:lang="uk">Прогноз наступної години</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization">
+    <rdfs:label xml:lang="uk">Онтологія візуалізації енергетичних даних</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment xml:lang="uk">ЛНУ, лабораторна №5. Варіант: Енергетика / Програмне забезпечення / Візуалізація. IRI example.org є навчальним ідентифікатором, а не опублікованим сервісом.</rdfs:comment>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3305cefc10a4d94b7ad3f3c740ebb45">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#ForecastResult"/>
+    <rdf:rest rdf:nodeID="Ne6e669ff615b45a9b2e030d7e7138c5d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#timeContext">
+    <rdfs:label xml:lang="uk">Часовий контекст</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#hasMeasurement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdfs:label xml:lang="uk">складається з</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N180a2127fd414ae98d302ffd5627e370">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#qualityFlag"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38722520a1ac4aea883ac2313a8a3a70">
+    <rdf:rest rdf:nodeID="Nacdbff95475d4f91a8e735c50a0d0de2"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#seriesOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#ConsumptionObject"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdfs:label xml:lang="uk">Ряд об’єкта</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5fb06d88165b49e9abc2a7c5cbda191f">
+    <owl:someValuesFrom rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#displaysSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#symbol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Позначення</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Unit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#predictionPeriod">
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Інтервал тестового прикладу</ns1:name>
+    <ns1:timeContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Час джерела без UTC-зсуву</ns1:timeContext>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predictionPeriod</ns1:identifier>
+    <rdfs:label xml:lang="uk">Інтервал тестового прикладу</rdfs:label>
+    <ns1:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-09T20:00:00</ns1:startTime>
+    <ns1:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-09-09T21:00:00</ns1:endTime>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93d966d1924f46e98930e98684296b5c">
+    <rdf:rest rdf:nodeID="Na3797ed3fca546c096f8a0e3c196de59"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#ViewFilter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#period">
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">period</ns1:identifier>
+    <ns1:startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-16T18:00:00</ns1:startTime>
+    <ns1:timeContext rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Локальні часові мітки вихідного набору; UTC-зсув не задано.</ns1:timeContext>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16 грудня 2006, 18:00–21:00</ns1:name>
+    <rdfs:label xml:lang="uk">16 грудня 2006, 18:00–21:00</rdfs:label>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-12-16T21:00:00</ns1:endTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#heatmap">
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Heatmap"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:yAxis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">енергія, kWh</ns1:yAxis>
+    <rdfs:label xml:lang="uk">Теплова карта прикладу</rdfs:label>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heatmap</ns1:identifier>
+    <ns1:displaysSeries rdf:resource="https://example.org/lnu/energy-visualization#series"/>
+    <ns1:xAxis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">локальний час</ns1:xAxis>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Теплова карта прикладу</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Submeter">
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+    <rdfs:label xml:lang="uk">Підлічильник</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ViewFilter">
+    <rdfs:label xml:lang="uk">Фільтр подання</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Програмне подання</ns1:topicGroup>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment xml:lang="uk">Умова відбору або групування інформації, яка показана на візуалізації.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#meter">
+    <ns1:records rdf:resource="https://example.org/lnu/energy-visualization#targetMeasurement"/>
+    <ns1:records rdf:resource="https://example.org/lnu/energy-visualization#measurement3"/>
+    <ns1:records rdf:resource="https://example.org/lnu/energy-visualization#measurement2"/>
+    <ns1:records rdf:resource="https://example.org/lnu/energy-visualization#measurement1"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:channel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Global_active_power</ns1:channel>
+    <rdfs:label xml:lang="uk">Канал загального споживання</rdfs:label>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Канал загального споживання</ns1:name>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meter</ns1:identifier>
+    <rdfs:comment xml:lang="uk">Умовний ідентифікатор каналу; серійний номер реального приладу невідомий.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#hasUnit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Unit"/>
+    <rdfs:label xml:lang="uk">Одиниця вимірювання</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#decisionText">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Decision"/>
+    <rdfs:label xml:lang="uk">Опис рішення</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#mae">
+    <ns1:metricValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3359660136113589</ns1:metricValue>
+    <ns1:evaluationScope rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9530 тестових прогнозів ЛР1; 2009-09-09 — 2010-11-26</ns1:evaluationScope>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAE регресії ЛР1</ns1:name>
+    <rdfs:comment xml:lang="uk">Значення metrics.json ЛР1 для всієї тестової вибірки, не похибка одного прогнозу.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#QualityMetric"/>
+    <ns1:metricUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kWh</ns1:metricUnit>
+    <rdfs:label xml:lang="uk">MAE регресії ЛР1</rdfs:label>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mae</ns1:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ClassificationResult">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdfs:label xml:lang="uk">Результат класифікації</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#filter">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#ViewFilter"/>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filter</ns1:identifier>
+    <rdfs:comment xml:lang="uk">Демонстраційний екземпляр структури системи; не факт із набору UCI.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Відбір за періодом</rdfs:label>
+    <ns1:filterField rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</ns1:filterField>
+    <ns1:filterCondition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2006-12-16 18:00 &lt;= timestamp &lt; 2006-12-16 21:00</ns1:filterCondition>
+    <ns1:configures rdf:resource="https://example.org/lnu/energy-visualization#lineChart"/>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Відбір за періодом</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N591850e9344c40a1b05845712599a9ba">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+    <rdf:rest rdf:nodeID="N2e038a69385d4a52ac328a134ac35afa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#xAxis">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">Вісь X</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#analyzesSeries">
+    <rdfs:label xml:lang="uk">аналізує</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#evaluatedBy">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">оцінюється</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#QualityMetric"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:label xml:lang="uk">Ідентифікатор</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#createsVisualization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#SoftwareModule"/>
+    <rdfs:label xml:lang="uk">формує</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#processes">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#SoftwareModule"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">опрацьовує</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Decision">
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <ns1:topicGroup xml:lang="uk">Використання</ns1:topicGroup>
+    <rdfs:comment xml:lang="uk">Висновок або дія, яку користувач обирає після інтерпретації візуалізації.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Рішення користувача</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb075df382dc45079d32246a999b1132">
+    <rdf:rest rdf:nodeID="Na52e699070cc440899fe6321d9d5b44b"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#regressor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#stepMinutes">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label xml:lang="uk">Крок у хвилинах</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#household">
+    <ns1:hasMeter rdf:resource="https://example.org/lnu/energy-visualization#submeter"/>
+    <ns1:hasMeter rdf:resource="https://example.org/lnu/energy-visualization#meter"/>
+    <rdfs:comment xml:lang="uk">Навчальне позначення реального домогосподарства з набору UCI; персональні дані не моделюються.</rdfs:comment>
+    <ns1:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">household</ns1:identifier>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Домогосподарство UCI</ns1:name>
+    <rdf:type rdf:resource="https://example.org/lnu/energy-visualization#Household"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:objectType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">домогосподарство</ns1:objectType>
+    <rdfs:label xml:lang="uk">Домогосподарство UCI</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#metricValue">
+    <rdfs:label xml:lang="uk">Значення метрики</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#QualityMetric"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne2656c2d1c3f4ef1b65c0a7d52f711e7">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#ClusterResult"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb8602b506304afa89f8aaec6f062a67">
+    <rdf:first rdf:nodeID="N6630802c4a30488ba814ed284c8842e1"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4ef9ef6014fa4fd29a39142a2b8dceb4">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#dataset"/>
+    <rdf:rest rdf:nodeID="N01701671b8db49e28e71600062dddecf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#metricUnit">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#QualityMetric"/>
+    <rdfs:label xml:lang="uk">Одиниця метрики</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#resultValue">
+    <rdfs:label xml:lang="uk">Значення результату</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#LineChart">
+    <rdfs:label xml:lang="uk">Лінійний графік</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3dda9280ad5f44de84d2fb5d118b7ef3">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#targetMeasurement"/>
+    <rdf:rest rdf:nodeID="Ne0a1002863b84075b187224d440efb8c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#seriesIndicator">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="uk">Показник ряду</rdfs:label>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3ae5686daa97462389eefc33b56b6932">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#timestamp"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#derivedFromSeries">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:label xml:lang="uk">отримано з</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#coversInterval">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#TimeInterval"/>
+    <rdfs:label xml:lang="uk">охоплює</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8216901cf3184ae38de177ef73aba258">
+    <rdf:rest rdf:nodeID="Ncd617e0a9d49446b99e5c8c8910dd7be"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#mae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ClusteringModel">
+    <rdfs:label xml:lang="uk">Модель кластеризації</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#channel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Канал обліку</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Meter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#presentedIn">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+    <rdfs:label xml:lang="uk">подано у</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <owl:inverseOf rdf:resource="https://example.org/lnu/energy-visualization#presentsResult"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5390329b14f1431396b8b6ff1eb32420">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#energy"/>
+    <rdf:rest rdf:nodeID="N0c1eb216df4a46d4af45ca6dcc458a97"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb364c42f078a4bec905be84fc5b94c3b">
+    <rdf:rest rdf:nodeID="N4ef9ef6014fa4fd29a39142a2b8dceb4"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#analyst"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1946d07dffb4493a92ea71b801c09447">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#observesIndicator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#yAxis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Вісь Y</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#horizonHours">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdfs:label xml:lang="uk">Горизонт у годинах</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisTask"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0aacd1f897ef44eea746d62d996372bb">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#seriesIndicator"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#modelVersion">
+    <rdfs:label xml:lang="uk">Версія моделі</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#supportsDecision">
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#Decision"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">підтримує</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#RegressionModel">
+    <rdfs:label xml:lang="uk">Регресійна модель</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#QualityMetric">
+    <rdfs:comment xml:lang="uk">Числова оцінка результату із зазначенням задачі й вибірки оцінювання.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Метрика якості</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Аналітика</ns1:topicGroup>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#generatedBy">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#AnalyticalModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="uk">Обернене: створює</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#containsSeries">
+    <rdfs:label xml:lang="uk">містить</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="https://example.org/lnu/energy-visualization#belongsToDataset"/>
+    <rdfs:range rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97a857d52ffc4098b233eac18e1498b5">
+    <owl:someValuesFrom rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#hasMeasurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#ClusterResult">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#AnalysisResult"/>
+    <rdfs:label xml:lang="uk">Результат кластеризації</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#AnalysisResult">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:label xml:lang="uk">Результат аналізу</rdfs:label>
+    <rdfs:comment xml:lang="uk">Результат застосування моделі до даних: значення прогнозу, мітка класу чи кластер.</rdfs:comment>
+    <ns1:topicGroup xml:lang="uk">Аналітика</ns1:topicGroup>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd617e0a9d49446b99e5c8c8910dd7be">
+    <rdf:rest rdf:nodeID="N27b65594861f41c3bdb8ac64d013200a"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#measurement1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Heatmap">
+    <rdfs:label xml:lang="uk">Теплова карта</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#indicatorUnit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+    <rdfs:label xml:lang="uk">Позначення одиниці показника</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e5737a9aa0d4fcaa12a72bf1acc63f2">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#predictionPeriod"/>
+    <rdf:rest rdf:nodeID="N3e7f666c3a614ed79835cfcadab17f06"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bfa8632e50c41ddb9e9de9a20fabf0d">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#module"/>
+    <rdf:rest rdf:nodeID="N01543d0149884cb5b0be4c8f3c0eef31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f8197c685d84139b3e916c05e4bc9d4">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#TimeSeries"/>
+    <rdf:rest rdf:nodeID="N591850e9344c40a1b05845712599a9ba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#filterCondition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label xml:lang="uk">Умова фільтра</rdfs:label>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#ViewFilter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8514d45a5bed4c69a93530b156b3c7bb">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#measurement3"/>
+    <rdf:rest rdf:nodeID="Ne8319ea3729d4221836ff7b1ed8a59f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na52e699070cc440899fe6321d9d5b44b">
+    <rdf:rest rdf:nodeID="N4b7b5d0124904fa686a7d561c7f514c8"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#series"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90cfab7b61f7458dafcf83a11125a922">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#forecast"/>
+    <rdf:rest rdf:nodeID="N31716a0325b64f948f30fa802ca96738"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31716a0325b64f948f30fa802ca96738">
+    <rdf:rest rdf:nodeID="N9226b74438c14f12923fe102bd91fcea"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#forecastChart"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0a1002863b84075b187224d440efb8c">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#task"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#forecastKwh">
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#ForecastResult"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:label xml:lang="uk">Прогноз енергії, кВт·год</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N679464a451ac409b8f4f764319cffb0e">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#EnergyIndicator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#User">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdfs:comment xml:lang="uk">Особа, яка переглядає графіки, налаштовує відбір і використовує результати.</rdfs:comment>
+    <rdfs:label xml:lang="uk">Користувач</rdfs:label>
+    <ns1:topicGroup xml:lang="uk">Використання</ns1:topicGroup>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#taskType">
+    <rdfs:label xml:lang="uk">Тип завдання</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#AnalysisTask"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef961e7d8ad94f148d8f84c1e85b46cd">
+    <rdf:rest rdf:nodeID="Nf05643b4b4b74dc589f20cdeb201b52c"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Visualization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N39a6028cd32349c8a7743bba66123b97">
+    <owl:intersectionOf rdf:nodeID="N1b1a0486c93549b594c4ed4fa4e0091c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7369f61f3ef94e9fad51d6769c54fc16">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#seriesOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Analyst">
+    <rdfs:label xml:lang="uk">Аналітик</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#User"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3797ed3fca546c096f8a0e3c196de59">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#QualityMetric"/>
+    <rdf:rest rdf:nodeID="Nc90dc47c6a0949ccb1876d8c84388026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d613c5910eb4e9c9d96945ca3fc472e">
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#identifier"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#Unit">
+    <rdfs:subClassOf rdf:resource="https://example.org/lnu/energy-visualization#DomainEntity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="uk">Одиниця вимірювання</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N48f2233bb2604831b052f58722b67f18">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#predictionDataset"/>
+    <rdf:rest rdf:nodeID="N0e5737a9aa0d4fcaa12a72bf1acc63f2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8319ea3729d4221836ff7b1ed8a59f4">
+    <rdf:rest rdf:nodeID="N0bfa8632e50c41ddb9e9de9a20fabf0d"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#meter"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef33332577fa425e8761d5cb435e6f34">
+    <rdf:rest rdf:nodeID="N679464a451ac409b8f4f764319cffb0e"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb49da109b8f140eaa21624ec21d8e850">
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#forecastKwh"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3e7f666c3a614ed79835cfcadab17f06">
+    <rdf:rest rdf:nodeID="Nfb075df382dc45079d32246a999b1132"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#predictionSeries"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa16082ecc7f43e48becf3652ad7bc83">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="https://example.org/lnu/energy-visualization#recordedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01701671b8db49e28e71600062dddecf">
+    <rdf:rest rdf:nodeID="N5390329b14f1431396b8b6ff1eb32420"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#decision"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#recordCount">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://example.org/lnu/energy-visualization#Dataset"/>
+    <rdfs:label xml:lang="uk">Кількість спостережень</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9d77e414c3a942d9b5867a7bea65f5be">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#kWh"/>
+    <rdf:rest rdf:nodeID="Nc7010b91b2b145b4bdea1407ae5eb2d1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6e669ff615b45a9b2e030d7e7138c5d">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#ClassificationResult"/>
+    <rdf:rest rdf:nodeID="Ne2656c2d1c3f4ef1b65c0a7d52f711e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/lnu/energy-visualization#topicGroup">
+    <rdfs:label xml:lang="uk">Тематична група ЛР4</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53e768854f3445daa8e1331aa649efc2">
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#ConsumptionObject"/>
+    <rdf:rest rdf:nodeID="N38722520a1ac4aea883ac2313a8a3a70"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c1eb216df4a46d4af45ca6dcc458a97">
+    <rdf:rest rdf:nodeID="N90cfab7b61f7458dafcf83a11125a922"/>
+    <rdf:first rdf:resource="https://example.org/lnu/energy-visualization#filter"/>
+  </rdf:Description>
+</rdf:RDF>

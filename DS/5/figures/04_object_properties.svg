@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1040pt" height="840pt" viewBox="0 0 1040 840" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-14T21:59:20.824104</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 840 
+L 1040 840 
+L 1040 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 37.592 91.992 
+L 262.408 91.992 
+Q 268.008 91.992 268.008 97.592 
+L 268.008 137.608 
+Q 268.008 143.208 262.408 143.208 
+L 37.592 143.208 
+Q 31.992 143.208 31.992 137.608 
+L 31.992 97.592 
+Q 31.992 91.992 37.592 91.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 777.592 91.992 
+L 1002.408 91.992 
+Q 1008.008 91.992 1008.008 97.592 
+L 1008.008 137.608 
+Q 1008.008 143.208 1002.408 143.208 
+L 777.592 143.208 
+Q 771.992 143.208 771.992 137.608 
+L 771.992 97.592 
+Q 771.992 91.992 777.592 91.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 37.592 175.992 
+L 262.408 175.992 
+Q 268.008 175.992 268.008 181.592 
+L 268.008 221.608 
+Q 268.008 227.208 262.408 227.208 
+L 37.592 227.208 
+Q 31.992 227.208 31.992 221.608 
+L 31.992 181.592 
+Q 31.992 175.992 37.592 175.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 777.592 175.992 
+L 1002.408 175.992 
+Q 1008.008 175.992 1008.008 181.592 
+L 1008.008 221.608 
+Q 1008.008 227.208 1002.408 227.208 
+L 777.592 227.208 
+Q 771.992 227.208 771.992 221.608 
+L 771.992 181.592 
+Q 771.992 175.992 777.592 175.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 37.592 259.992 
+L 262.408 259.992 
+Q 268.008 259.992 268.008 265.592 
+L 268.008 305.608 
+Q 268.008 311.208 262.408 311.208 
+L 37.592 311.208 
+Q 31.992 311.208 31.992 305.608 
+L 31.992 265.592 
+Q 31.992 259.992 37.592 259.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 777.592 259.992 
+L 1002.408 259.992 
+Q 1008.008 259.992 1008.008 265.592 
+L 1008.008 305.608 
+Q 1008.008 311.208 1002.408 311.208 
+L 777.592 311.208 
+Q 771.992 311.208 771.992 305.608 
+L 771.992 265.592 
+Q 771.992 259.992 777.592 259.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 37.592 343.992 
+L 262.408 343.992 
+Q 268.008 343.992 268.008 349.592 
+L 268.008 389.608 
+Q 268.008 395.208 262.408 395.208 
+L 37.592 395.208 
+Q 31.992 395.208 31.992 389.608 
+L 31.992 349.592 
+Q 31.992 343.992 37.592 343.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 777.592 343.992 
+L 1002.408 343.992 
+Q 1008.008 343.992 1008.008 349.592 
+L 1008.008 389.608 
+Q 1008.008 395.208 1002.408 395.208 
+L 777.592 395.208 
+Q 771.992 395.208 771.992 389.608 
+L 771.992 349.592 
+Q 771.992 343.992 777.592 343.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 37.592 427.992 
+L 262.408 427.992 
+Q 268.008 427.992 268.008 433.592 
+L 268.008 473.608 
+Q 268.008 479.208 262.408 479.208 
+L 37.592 479.208 
+Q 31.992 479.208 31.992 473.608 
+L 31.992 433.592 
+Q 31.992 427.992 37.592 427.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 777.592 427.992 
+L 1002.408 427.992 
+Q 1008.008 427.992 1008.008 433.592 
+L 1008.008 473.608 
+Q 1008.008 479.208 1002.408 479.208 
+L 777.592 479.208 
+Q 771.992 479.208 771.992 473.608 
+L 771.992 433.592 
+Q 771.992 427.992 777.592 427.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 37.592 511.992 
+L 262.408 511.992 
+Q 268.008 511.992 268.008 517.592 
+L 268.008 557.608 
+Q 268.008 563.208 262.408 563.208 
+L 37.592 563.208 
+Q 31.992 563.208 31.992 557.608 
+L 31.992 517.592 
+Q 31.992 511.992 37.592 511.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 777.592 511.992 
+L 1002.408 511.992 
+Q 1008.008 511.992 1008.008 517.592 
+L 1008.008 557.608 
+Q 1008.008 563.208 1002.408 563.208 
+L 777.592 563.208 
+Q 771.992 563.208 771.992 557.608 
+L 771.992 517.592 
+Q 771.992 511.992 777.592 511.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 37.592 595.992 
+L 262.408 595.992 
+Q 268.008 595.992 268.008 601.592 
+L 268.008 641.608 
+Q 268.008 647.208 262.408 647.208 
+L 37.592 647.208 
+Q 31.992 647.208 31.992 641.608 
+L 31.992 601.592 
+Q 31.992 595.992 37.592 595.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 777.592 595.992 
+L 1002.408 595.992 
+Q 1008.008 595.992 1008.008 601.592 
+L 1008.008 641.608 
+Q 1008.008 647.208 1002.408 647.208 
+L 777.592 647.208 
+Q 771.992 647.208 771.992 641.608 
+L 771.992 601.592 
+Q 771.992 595.992 777.592 595.992 
+z
+" clip-path="url(#p8c461de861)" style="fill: #e8f0fb; stroke: #667991; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start" x="32" y="33.6" transform="rotate(-0 32 33.6)">Об’єктні властивості · частина 3/3</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="32" y="60" transform="rotate(-0 32 60)">Domain → властивість → Range. Класи повторюються для читабельності; це не додаткові класи.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(102.069531 114.19668)">Результат аналізу</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(113.950781 126.199414)">AnalysisResult</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(849.461719 114.19668)">Метрика якості</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(856.589062 126.199414)">QualityMetric</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 270.003357 123.2 
+Q 520.000152 123.2 768.655306 123.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 121.2 
+L 768.655306 123.2 
+L 764.655306 125.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(496.2475 103.675156)">оцінюється</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(494.941875 113.277344)">evaluatedBy</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="144" transform="rotate(-0 520 144)">односпрямована · допускає кілька значень</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(108.09375 198.19668)">Фільтр подання</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(125.753125 210.199414)">ViewFilter</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(858.390625 198.19668)">Візуалізація</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(858.419531 210.199414)">Visualization</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 270.003357 207.2 
+Q 520.000152 207.2 768.655306 207.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 205.2 
+L 768.655306 207.2 
+L 764.655306 209.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(494.5675 187.675156)">налаштовує</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(499.123125 197.277344)">configures</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="228" transform="rotate(-0 520 228)">односпрямована · функціональна (≤1)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(119.38125 282.19668)">Користувач</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(138.603906 294.198633)">User</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(833.657031 282.19668)">Рішення користувача</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(868.713281 294.199414)">Decision</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 270.003357 291.2 
+Q 520.000152 291.2 768.655306 291.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 289.2 
+L 768.655306 291.2 
+L 764.655306 293.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(502.33625 271.675156)">ухвалює</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(489.904375 281.277344)">makesDecision</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="312" transform="rotate(-0 520 312)">односпрямована · допускає кілька значень</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(118.390625 366.19668)">Візуалізація</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(118.419531 378.199414)">Visualization</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(833.657031 366.19668)">Рішення користувача</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(868.713281 378.199414)">Decision</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 270.003357 375.2 
+Q 520.000152 375.2 768.655306 375.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 373.2 
+L 768.655306 375.2 
+L 764.655306 377.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(498.45875 355.675156)">підтримує</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(485.529375 365.277344)">supportsDecision</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="396" transform="rotate(-0 520 396)">односпрямована · допускає кілька значень</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(117.025781 450.196289)">Часовий ряд</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(122.3875 462.199023)">TimeSeries</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(838.7375 450.281836)">Об’єкт споживання</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(840.6 462.28457)">ConsumptionObject</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 270.003357 459.2 
+Q 520.000152 459.2 768.655306 459.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 457.2 
+L 768.655306 459.2 
+L 764.655306 461.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(495.56625 439.675156)">Ряд об’єкта</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(503.5975 449.277344)">seriesOf</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="480" transform="rotate(-0 520 480)">односпрямована · функціональна (≤1)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(117.025781 534.196289)">Часовий ряд</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(122.3875 546.199023)">TimeSeries</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(826.535938 534.196289)">Енергетичний показник</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(850.398438 546.199023)">EnergyIndicator</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 270.003357 543.2 
+Q 520.000152 543.2 768.655306 543.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 541.2 
+L 768.655306 543.2 
+L 764.655306 545.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(488.569375 523.675156)">Показник ряду</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(490.478125 533.277344)">seriesIndicator</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="564" transform="rotate(-0 520 564)">односпрямована · функціональна (≤1)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(115.219531 618.19707)">Вимірювання</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(115.674219 630.199023)">Measurement</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(830.542969 618.19668)">Одиниця вимірювання</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(879.822656 630.199414)">Unit</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 270.003357 627.2 
+Q 520.000152 627.2 768.655306 627.2 
+" style="fill: none; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 764.655306 625.2 
+L 768.655306 627.2 
+L 764.655306 629.2 
+z
+" style="fill: #43546c; stroke: #43546c; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(472.434375 607.675156)">Одиниця вимірювання</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #25354a" transform="translate(504.788125 617.277344)">hasUnit</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #596777" x="520" y="648" transform="rotate(-0 520 648)">односпрямована · функціональна (≤1)</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start" x="32" y="808" transform="rotate(-0 32 808)">Точні обмеження існування й кратності: ontology_structure.json → restrictions; повна семантика: energy_ontology.owl.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8c461de861">
+   <rect x="0" y="0" width="1040" height="840"/>
+  </clipPath>
+ </defs>
+</svg>

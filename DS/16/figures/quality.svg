@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="500" height="230" preserveAspectRatio="xMinYMin meet" viewBox="0 0 500 230" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="500" height="230"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-230)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="131.2392578125" y="213" style="font-family: TNRB; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,426) scale(1,-1)">Частка проходження proxy перевірок</text>
+			<text x="0" y="170" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,340) scale(1,-1)">Прості  n=20</text>
+			<text x="0" y="155" style="font-family: TNR; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,310) scale(1,-1)">0,294 → 0,215 с</text>
+			<rect x="172" y="176" width="229.5" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,61%,69%); fill-rule: evenodd;"/>
+			<text x="448" y="177" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,354) scale(1,-1)">17/20</text>
+			<rect x="172" y="160" width="270.0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,69%,58%); fill-rule: evenodd;"/>
+			<text x="448" y="161" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,322) scale(1,-1)">20/20</text>
+			<text x="0" y="127" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">Багатокрокові  n=10</text>
+			<text x="0" y="112" style="font-family: TNR; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,224) scale(1,-1)">0,204 → 0,281 с</text>
+			<rect x="172" y="133" width="0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,61%,69%); fill-rule: evenodd;"/>
+			<text x="448" y="134" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,268) scale(1,-1)">0/10</text>
+			<rect x="172" y="117" width="270.0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,69%,58%); fill-rule: evenodd;"/>
+			<text x="448" y="118" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,236) scale(1,-1)">10/10</text>
+			<text x="0" y="84" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,168) scale(1,-1)">Без відповіді  n=5</text>
+			<text x="0" y="69" style="font-family: TNR; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,138) scale(1,-1)">0,192 → 0,181 с</text>
+			<rect x="172" y="90" width="108.0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,61%,69%); fill-rule: evenodd;"/>
+			<text x="448" y="91" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,182) scale(1,-1)">2/5</text>
+			<rect x="172" y="74" width="270.0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,69%,58%); fill-rule: evenodd;"/>
+			<text x="448" y="75" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,150) scale(1,-1)">5/5</text>
+			<text x="0" y="41" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,82) scale(1,-1)">Провокативні  n=5</text>
+			<text x="0" y="26" style="font-family: TNR; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">0,686 → 0,191 с</text>
+			<rect x="172" y="47" width="216.0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,61%,69%); fill-rule: evenodd;"/>
+			<text x="448" y="48" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,96) scale(1,-1)">4/5</text>
+			<rect x="172" y="31" width="270.0" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,69%,58%); fill-rule: evenodd;"/>
+			<text x="448" y="32" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,64) scale(1,-1)">5/5</text>
+			<rect x="172" y="2" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,61%,69%); fill-rule: evenodd;"/>
+			<text x="190" y="3" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,6) scale(1,-1)">ЛР15 до</text>
+			<rect x="300" y="2" width="12" height="12" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(52%,69%,58%); fill-rule: evenodd;"/>
+			<text x="318" y="3" style="font-family: TNR; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,6) scale(1,-1)">ЛР15 після</text>
+		</g>
+	</g>
+</svg>
